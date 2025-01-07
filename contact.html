@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="stylesheet" href="C:\Course 3240\styles.css">
+<!-- 
+Kristin Hunt
+12/12/2024
+Contact page
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    
+<body>
+    <header>
+        <h1>Get in Touch! </h1>
+        <img src="headshot.jpg" alt="Site Logo" style="width: 100px;">
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutMe.html">About</a>
+        <a href="interest.html">Interests</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Contact Info -->
+
+    <section class="contact-details">
+        <div class="row">
+            <div class="label">Name:</div>
+            <div class="value">Kristin H.</div>
+        </div>
+
+        <div class="row">
+            <div class="label">Phone:</div>
+            <div class="value"><a href="tel:+1234567890">(859) 421-9767</a></div>
+        </div>
+
+        <div class="row">
+            <div class="label">Email:</div>
+            <div class="value"><a href="mailto:jane.doe@example.com">Khunt60@capellauniversity.edu</a></div>
+        </div>
+
+        <div class="row">
+            <div class="label">LinkedIn:</div>
+            <div class="value"><a href="https://linkedin.com/in/janedoe" target="_blank">www.linkedin.com/in/kristin-monroe-673338248</a></div>
+        </div>
+        
+    </section>
+
+      <!-- Contact Form  -->
+      <form method=”post”>
+      <section class="contact-form">
+        <h2>Send Me a Message</h2>
+        <p>If you have any questions, reach out using this form!</p>
+        
+        <form action="submit-form.php" method="post">
+            <!-- Legend -->
+            <fieldset>
+                <legend>Your Details</legend>
+                
+                <!-- Name  -->
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <!-- Email  -->
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+            </fieldset>
+
+            <!-- Preferences -->
+            <fieldset>
+                <legend>Your Preferences</legend>
+
+                <!-- Contact Method -->
+                <div class="form-group">
+                    <label for="contact-method">Preferred Contact Method:</label>
+                    <select id="contact-method" name="contact-method" required>
+                        <option value="" disabled selected>Choose an option</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+                </div>
+
+ <!-- Submit Button -->
+ <div class="form-group">
+    <button type="submit">Submit</button>
+</div>
+</form>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+    </footer>
