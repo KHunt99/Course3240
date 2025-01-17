@@ -93,6 +93,7 @@ article {
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,6 +104,8 @@ article {
             margin: 0;
             padding: 0;
         }
+        </style>
+        </head>
 
         header {
             background-color: #eff5e8;
@@ -283,6 +286,8 @@ article {
     </style>
 
     /* Contact Form Section */
+    <style> 
+
 .contact-form {
     max-width: 800px;
     margin: 20px auto;
@@ -301,6 +306,7 @@ article {
     text-align: center;
     margin-bottom: 20px;
 }
+</style>
 
 /* Form Styling */
 form {
